@@ -1,0 +1,18 @@
+# This file contains the user specific details.
+
+# General
+# User specific details that the NLA would use for quick assist and user reference.
+user:
+    name: "XA"
+    address_as: "Boss"
+
+# Natural Language Assistant
+# Character specifications for the NLA.
+ai:
+    name: charlotte     # [optional] (default: charlotte)
+
+# Ports
+# Ports on which the actions & hosting will be performed.
+port:
+    action_server: 6969     # [optional] (default: 6969)
+    socketio: 1414     # [optional] (default: 1414)
