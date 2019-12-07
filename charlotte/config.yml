@@ -1,0 +1,46 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: "en"
+pipeline:
+    - name: "WhitespaceTokenizer"
+    - name: "RegexFeaturizer"
+    - name: "CRFEntityExtractor"
+    - name: "EntitySynonymMapper"
+    - name: "CountVectorsFeaturizer"
+    - name: "CountVectorsFeaturizer"
+      analyzer: "char_wb"
+      min_ngram: 1
+      max_ngram: 4
+    - name: "EmbeddingIntentClassifier"
+      batch_strategy: "sequence"
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+    - name: "MemoizationPolicy"
+      max_history: 10
+    - name: "KerasPolicy"
+      batch_size: 512
+      epochs: 200
+      max_training_samples: 300
+      max_history: 10
+      random_seed: 1
+      featurizer:
+          - name: "MaxHistoryTrackerFeaturizer"
+            max_history: 10
+            state_featurizer:
+              - name: "BinarySingleStateFeaturizer"
+    - name: "FallbackPolicy"
+      nlu_threshold: 0.4
+      core_threshold: 0.3
+      ambiguity_threshold: 0.1
+      fallback_action_name: "action_default_fallback"
+    - name: "MappingPolicy"
+
+# Policy priorities
+# https://rasa.com/docs/rasa/core/policies/#action-selection
+# 5. FormPolicy
+# 4. FallbackPolicy and TwoStageFallbackPolicy
+# 3. MemoizationPolicy and AugmentedMemoizationPolicy
+# 2. MappingPolicy
+# 1. EmbeddingPolicy, KerasPolicy, and SklearnPolicy

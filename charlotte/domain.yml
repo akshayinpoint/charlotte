@@ -1,0 +1,78 @@
+# This file defines the universe in which C.H.A.R.L.O.T.T.E operates.
+# https://rasa.com/docs/rasa/core/domains/#an-example-of-a-domain
+actions:
+- action_responding_to_greet_message
+
+entities:
+- address_value
+- day
+- days
+- direction
+- gender
+- hours
+- metric_unit
+- name
+- next
+- num_of_day
+- num_of_days
+- num_of_hours
+- part_of_day
+- time
+- weather
+- weather_condition
+
+intents:
+- saying_hi
+- asking_weather
+
+slots:
+  address_value:
+    type: text
+  day:
+    type: text
+  days:
+    type: text
+  direction:
+    type: text
+  gender:
+    type: text
+  has_user_greeted:
+    initial_value: false
+    type: bool
+  hotword:
+    type: text
+  hours:
+    type: text
+  metric_unit:
+    initial_value: true
+    type: bool
+  name:
+    type: text
+  next:
+    type: text
+  num_of_day:
+    type: text
+  num_of_days:
+    type: text
+  num_of_hours:
+    type: text
+  part_of_day:
+    type: text
+  time:
+    type: text
+  weather:
+    type: text
+  weather_condition:
+    type: text
+  xa_lcase:
+    initial_value: boss
+    type: text
+  xa_tcase:
+    initial_value: Boss
+    type: text
+
+templates:
+  action_default_fallback:
+  - text: My apologies, {xa_lcase}. I didn't understand what you mean.
+  - text: Sorry, {xa_lcase}. I am not sure how to help you with that yet.
+  - text: Pardon me, but could you please rephrase that again?

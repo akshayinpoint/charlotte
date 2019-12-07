@@ -1,0 +1,14 @@
+# This file contains the endpoints that C.H.A.R.L.O.T.T.E will use.
+
+# Server which runs your custom actions.
+# https://rasa.com/docs/rasa/core/actions/#custom-actions/
+action_endpoint:
+    url: "http://localhost:6969/webhook"
+
+# Tracker store which is used to store the conversations.
+# By default the conversations are stored in memory.
+# https://rasa.com/docs/rasa/api/tracker-stores/
+tracker_store:
+    type: "SQL"
+    dialect: "sqlite"
+    db: "./database/tracker_store.db"
