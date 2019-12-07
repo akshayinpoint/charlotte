@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-An open-source, flexible, high-performance function serving framework for <a href="https://github.com/xames3/charlotte/">Charlotte AI.</a><br>Built by <a href="https://linkedin.com/in/xames3">XA</a> and <a href="https://github.com/xames3/charlotte/graphs/contributors">
+C.H.A.R.L.O.T.T.E is an open-source, natural language ui.</a><br>Built by <a href="https://linkedin.com/in/xames3">XA</a> and <a href="https://github.com/xames3/charlotte/graphs/contributors">
   contributors</a>.
 </p>
 
@@ -16,8 +16,6 @@ An open-source, flexible, high-performance function serving framework for <a hre
     <a href="https://github.com/xames3/charlotte/issues"><img src="https://img.shields.io/github/issues/xames3/charlotte?logo=github" alt="Open issues"/></a>
     <!-- Last commit -->
     <a href="https://github.com/xames3/charlotte/commits/master"><img src="https://img.shields.io/github/last-commit/xames3/charlotte?logo=github" alt="Last commit"/></a>    
-    <!-- License -->
-    <a href="https://github.com/xames3/charlotte/blob/master/LICENSE"><img src="https://img.shields.io/pypi/l/charlotte?logo=apache" alt="License"/></a>
 </p>
 
 ## Table of Contents

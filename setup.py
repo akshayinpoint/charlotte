@@ -78,4 +78,5 @@ setup(name=PACKAGE_NAME,
       install_requires=REQUIRED_PACKAGES,
       python_requires='~=3.5',
       include_package_data=True,
-      packages=find_packages())
+      packages=find_packages(),
+    )
