@@ -84,3 +84,7 @@ TEST_HOST_PORT = 2121
 # Sets the logging level to INFO.
 ENV_LOG_LEVEL_NAME = 'CHARLOTTE_LOG_LEVEL'
 DEFAULT_LOG_LEVEL = 'INFO'
+
+# User information
+XA_LCASE = 'boss'
+XA_TCASE = 'Boss'
