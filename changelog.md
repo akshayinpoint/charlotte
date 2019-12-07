@@ -7,8 +7,17 @@
 All notable changes to this project will be documented in this file.<br>
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) starting with version 0.0.1.
 
-## [Stable releases]
+## [Unreleased]
 ### [0.0.1] - 2019-12-06
 
 #### Added
 - project to this repository.
+- `.yaml` files to the repository.
+- files to be ignored in `.gitignore` file.
+- user information section in `settings.py`
+
+#### Changed
+- contents in `README.md` file.
+
+#### Fixed
+- linter issues in all files.
