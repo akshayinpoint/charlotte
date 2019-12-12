@@ -1,0 +1,46 @@
+@import url("colors-dark.css");
+@import url("colors-light.css");
+@import url("dimensions.css");
+@font-face {
+    font-family: SFLight;
+    src: url('../fonts/SFProDisplay-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: SFRegular;
+    src: url('../fonts/SFProDisplay-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: SFRegular;
+    src: url('../fonts/SFProDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: SFThin;
+    src: url('../fonts/SFProDisplay-Thin.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: SFUL;
+    src: url('../fonts/SFProDisplay-Ultralight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* -------------------- HTML -------------------- */
+
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: var(--charlotte-background);
+}
