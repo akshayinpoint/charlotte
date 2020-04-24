@@ -11,8 +11,6 @@ Built by <a href="https://linkedin.com/in/xames3">XA</a>.
 <p align="center">
     <!-- Python version -->
     <a href="https://www.python.org/downloads/release/python-365/"><img src="https://img.shields.io/pypi/pyversions/pyxa?color=blue&logo=python&logoColor=white" alt="Python version"/></a>
-    <!-- Open issues -->
-    <a href="https://github.com/xames3/charlotte/issues"><img src="https://img.shields.io/github/issues/xames3/charlotte?logo=github" alt="Open issues"/></a>
     <!-- Last commit -->
     <a href="https://github.com/xames3/charlotte/commits/master"><img src="https://img.shields.io/github/last-commit/xames3/charlotte?logo=github" alt="Last commit"/></a>    
 </p>
