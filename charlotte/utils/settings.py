@@ -26,6 +26,7 @@ values should be checked and updated periodically.
 PACKAGE_NAME = 'charlotte'
 PROJECT_NAME = 'Charlotte'
 AI_NAME = PROJECT_NAME
+STATUS = 'Archived'
 
 # This package adheres to Semantic Versioning Specification (SemVer)
 # starting with version 0.0.1.
