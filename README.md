@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-Built by <a href="https://linkedin.com/in/xames3">XA</a>.
+Built by <a href="https://linkedin.com/in/xames3">XA</a>
 </p>
 
 <p align="center">
